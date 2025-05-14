@@ -1,0 +1,38 @@
+body {
+    min-width: 300px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 16px;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+a {
+    color: #b30000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}

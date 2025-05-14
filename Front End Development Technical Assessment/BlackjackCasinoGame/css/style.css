@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(5, 111, 5);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    color: gold;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 18px;
+    color: rgb(5, 111, 5);
+    background-color: rgb(158, 138, 22);
+    border: none;
+    border-radius: 18px;
+    padding: 10px 20px;
+    margin: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: rgb(178, 155, 30);
+}
+
+#cards, #sum, #message {
+    font-size: 24px;
+    margin: 16px 0;
+}

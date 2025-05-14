@@ -1,0 +1,125 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Layout */
+.main-box {
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Headings */
+h1 {
+    color: #ffd700;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffcc00;
+    font-size: 28px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+}
+
+li {
+    padding: 4px 0;
+    text-align: left;
+}
+
+/* Sections */
+.box {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+/* About Photo */
+.about-container {
+    display: flex;
+    align-items: center;         /* aligns image and text vertically */
+    gap: 20px;                   /* space between image and text */
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid yellow;
+}
+
+/* Highlight */
+.highlight {
+    font-style: italic;
+    color: #ffef8b;
+}
+
+/* Skills List */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Code block */
+pre {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    overflow-x: auto;
+    font-size: 14px;
+}
+
+/* Table */
+.proj-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.proj-table th, .proj-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #2e3b4e;
+    text-align: center;
+}
+
+.proj-table th {
+    background-color: #3c4a5f;
+    color: #ffd700;
+}
+
+/* Contact Links */
+#contact ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#contact li {
+    margin: 0; /* Remove default vertical margin on li */
+    font-size: 18px;
+}
+
+#contact a {
+    color: #4dd0e1;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
